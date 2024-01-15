@@ -3,7 +3,7 @@ Welcome to Chitralay, a visual odyssey where every photograph is a brushstroke o
 ## Horizontal Rules
 
 ## Discover my photography here!
-[![Instagram](https://img.shields.io/badge/Instagram-Profile-blue)]([https://www.instagram.com/your_username/](https://www.instagram.com/_.chitralay/))
+[![Instagram](https://img.shields.io/badge/Instagram-Profile-blue)]((https://www.instagram.com/_.chitralay/))
 [![Download **ROYALTY FREE PICS** of my photography]] ([atontalapur.github.io/sites])
 
 ### h3 heading
