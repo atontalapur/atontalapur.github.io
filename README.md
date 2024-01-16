@@ -6,8 +6,8 @@ ______
 ## Discover my photography here!
 
 <p align="center">
-  <a href="https://www.instagram.com/your_username/">
-    <img src="https://img.shields.io/badge/Instagram-Profile-EF3078?style=for-the-badge&logo=instagram" alt="Instagram">
+  <a href="https://www.instagram.com/_.chitralay/">
+    <img src="[https://img.shields.io/badge/Instagram-Profile-EF3078?style=for-the-badge&logo=instagram](https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo.png)" alt="Instagram">
   </a>
 </p>
 
