@@ -4,6 +4,13 @@ Welcome to Chitralay, a visual odyssey where every photograph is a brushstroke o
 ______
 
 ## Discover my photography here!
+
+<p align="center">
+  <a href="https://www.instagram.com/your_username/">
+    <img src="https://img.shields.io/badge/Instagram-Profile-EF3078?style=for-the-badge&logo=instagram" alt="Instagram">
+  </a>
+</p>
+
 [![Instagram]([https://img.shields.io/badge/Instagram-Profile-blue](https://static.designboom.com/wp-content/uploads/2016/05/new-instagram-logo-new-look-designboom-01.jpg))]((https://www.instagram.com/_.chitralay/))
 
 ### h3 heading
