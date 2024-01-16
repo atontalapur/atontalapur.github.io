@@ -25,6 +25,6 @@
     <img src="https://img.shields.io/badge/Instagram-Profile-EF3078?style=for-the-badge&logo=instagram" alt="Instagram">
 		
   </a>
-  <div> Explore different photos with it's detailed descriptions about Hinduism </div>
+  <h3> Explore different photos with it's detailed descriptions about Hinduism </h3>
 
 
