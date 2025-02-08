@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advaith Tontalapur | Portfolio</title>
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico" />
+    
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- AOS Animation Library CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    
+    <nav id="menu">
+        <!-- Favicon image (ensure favicon.png is in your project folder or adjust the src) -->
+        <img src="../public/favicon.ico" alt="Logo" class="menu-icon">
+        <!-- Menu items -->
+        <ul class="menu-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    <header>
+       <!-- Hero Section with Particles Background -->
+        <section class="hero">
+            <!-- Particles.js container -->
+            <div id="particles-js"></div>
+
+            <div class="hero-content">
+                <h1 data-aos="fade-down" data-aos-duration="1500">Hello, I'm Advaith Tontalapur</h1>
+                <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                    Student Developer specializing in Frontend Development
+                </p>
+            <div class="social-icons" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <a href="https://github.com/atontalapur" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/advaithtontalapur/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section" data-aos="fade-right" data-aos-duration="1500">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    Results-driven Computer Science student at the University of California, Riverside, with a strong
+                    foundation in software development, database management, and front-end web technologies. Passionate
+                    about building scalable and efficient solutions, leveraging expertise in C++, Python, Java,
+                    React.js, and MySQL. Experienced in working with Agile methodologies, version control (Git/GitHub),
+                    and cloud deployment (Vercel).
+                </p>
+                <p>
+                    Demonstrated leadership and teamwork through internships and projects,
+                    successfully managing technical documentation, website development, and event database operations.
+                </p>    
+                <p>
+                    Currently seeking opportunities to apply technical skills, problem-solving abilities, and
+                    collaborative mindset to innovative software development and engineering roles.
+                </p>
+                
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section" data-aos="fade-left" data-aos-duration="1500">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="flip-left" data-aos-duration="1500">
+                        <img src="../public/coin-game.png" alt="Project 1" />
+                        <h3>Coin Collector</h3>
+                        <p>A python game developed using Agile Methedologies and SOLID Principles.</p>
+                        <a href="/coin.html" class="btn">View Project</a>
+                        <a href="https://github.com/atontalapur/coin-collector" class="btn" target = "_blank">GitHub</a>
+                    </div>
+                    <div class="project-card" data-aos="flip-up" data-aos-duration="1500">
+                        <img src="../public/testify.png" alt="Project 2" />
+                        <h3>Testify - Rose Hack 2025</h3>
+                        <p>An AI assistant for instructors to handle their question papers for quizes and exams.</p>
+                        <a href="/testify.html" class="btn">View Project</a>
+                        <a href="https://github.com/atontalapur/testify-rosehack-2025" class="btn" target = "_blank">GitHub</a>
+                    </div>
+                    <div class="project-card" data-aos="flip-right" data-aos-duration="1500">
+                        <img src="../public/ucrwebsite.png" alt="Project 3" />
+                        <h3>Chapter Website - Hindu YUVA at UCR</h3>
+                        <p>An interactive website hosting information about the student organization and it's events.</p>
+                        <a href="https://ucrhinduyuva.club" target="_blank" class="btn">View Project</a>
+                        <a href="https://github.com/atontalapur/hinduyuvaucr" target="_blank" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+        <!-- Skills Section -->
+        <section id="skills" class="section" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3 / SCSS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React</li>
+                    <li>Tailwind CSS</li>
+                    <li>C++ DSA</li>
+                    <li>Java DSA</li>
+                    <li>Agile Methedologies</li>
+                    <li>Responsive Design</li>
+                    <li>Git &amp; GitHub</li>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h2>Contact</h2>
+                <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer data-aos="fade-in" data-aos-duration="1500">
+        <div class="container">
+            <p>&copy; 2025 Advaith Tontalapur. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Particles.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <!-- AOS Animation Library JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
