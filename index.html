@@ -138,18 +138,21 @@
         <section id="contact" class="section" data-aos="fade-up" data-aos-duration="1500">
             <div class="container">
                 <h2>Contact</h2>
-                <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                <form name="contact" method="POST" data-netlify="true">
                     <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required />
+                        <label for="name">Name
+                            <input type="text" id="name" name="name" required />
+                        </label>
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required />
+                        <label for="email">Email
+                            <input type="email" id="email" name="email" required />
+                        </label>
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Message
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </label>
                     </div>
                     <button type="submit" class="btn">Send Message</button>
                 </form>
