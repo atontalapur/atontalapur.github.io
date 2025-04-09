@@ -367,22 +367,6 @@
   transition: all 0.3s ease;
 }
 
-  /* Responsive Navigation */
-  @media (max-width: 768px) {
-    .nav-container {
-      flex-direction: column;
-    }
-    
-    .nav-links {
-      flex-direction: column;
-      text-align: center;
-    }
-    
-    .nav-links li {
-      margin: 10px 0;
-    }
-  }
-  
   /* Project Hero Section */
 .project-hero {
     position: relative;
@@ -496,44 +480,22 @@
 
   /* Mobile Optimization */
 @media (max-width: 1024px) {
-  .hamburger {
-    display: flex;
+  .menu-icon {
+    opacity: 1 !important;
+    visibility: visible !important;
   }
+  
+  /* Optionally hide other non-essential elements if you don't want a full menu bar */
 
-  #menu .menu-items {
-    display: none; /* Hide menu items by default */
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #1e1e1e;
-    z-index: 1000;
-    padding: 10px 0;
-  }
-
-  #menu .menu-items.active {
-    display: flex; /* Show menu items when active */
-  }
-
+  
+  /* Reposition the #menu container (if needed) to the left edge */
   #menu {
-    width: 100%; /* Make the menu take full width */
-    height: auto; /* Adjust height for better spacing */
-    padding: 10px; /* Add padding for better touch interaction */
-    border-radius: 0; /* Remove border-radius for a flat look */
+    left: 0;
+    transform: none;
+    width: auto;
+    justify-content: flex-start;
+    padding: 10px;
   }
-
-  #menu .menu-icon {
-    margin: 0 auto; /* Center the icon */
-    transform: translateX(0); /* Ensure it's centered */
-  }
-
-  #menu .menu-items {
-    flex-direction: column; /* Stack menu items vertically */
-    gap: 10px; /* Add spacing between items */
-    text-align: center; /* Center-align text */
-  }
-
   .hero-content h1 {
     font-size: 2.5em; /* Reduce font size for smaller screens */
   }

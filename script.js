@@ -135,3 +135,12 @@ window.addEventListener('scroll', function() {
     menu.classList.remove('collapsed');
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const menuItems = document.querySelector('#menu .menu-items');
+    
+    hamburger.addEventListener('click', function() {
+      menuItems.classList.toggle('active');
+    });
+  });
